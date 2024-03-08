@@ -16,9 +16,7 @@ git clone https://github.com/chenpeijun256/riscv-5s.git
 
 make:
 
-cd riscv-5s
-
-cd iver
+cd riscv-5s/iver
 
 make
 
