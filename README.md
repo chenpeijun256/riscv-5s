@@ -1,23 +1,27 @@
 # riscv-5s
 RISC-V core with 5 stage pipeline.
+
 support RV32I.
 
-get started:
+![flow](riscv-5s.png)
 
+## get started:
+
+**OS：** <br>
 Ubuntu 22.04
 
-install:
-
+**install:** <br>
 sudo apt install iverilog gtkwave
 
-download code:
-
+**download code:** <br>
 git clone https://github.com/chenpeijun256/riscv-5s.git
 
-make:
+**make:** <br>
+cd riscv-5s/iver <br>
+make <br>
+make clean <br>
 
-cd riscv-5s/iver
-
-make
-
-make clean
+after make done, no failed case found, it's ok. <br>
+```
+total case: 38, failed: 0, success: 38.
+```
